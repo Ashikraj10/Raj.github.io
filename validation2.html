@@ -1,0 +1,110 @@
+<html>
+<head>
+
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: black;}
+</style>
+
+<title>Js transfer</title>
+<script language="javascript">
+function a()
+{
+var a=document.getElementsByName("t1")[0].value;
+var b=document.getElementsByName("t2")[0].value;
+var c=document.getElementsByName("t3")[0].value;
+var d=document.getElementsByName("t4")[0].value;
+var e=document.getElementsByName("s1")[0].value;
+var f=document.getElementsByName("t5")[0].value;
+ var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+if(a=="")
+{
+alert("Please enter Name");
+return false;
+}
+else if(isNaN(a)==false){
+alert("Enter the Name in String Format");
+return false;
+}
+else if(b=="")
+{
+alert("Please enter city");
+return false;
+}
+else if(isNaN(b)==false)
+{
+alert("city should be in alphabetical format");
+return false;
+}
+else if(c=="")
+{
+alert("Please enter contact no");
+return false;
+}
+else if(isNaN(c)==true)
+{
+  alert("enter contact no in numerical format");
+ return false;
+}
+else if(c.length!=10)
+{
+alert("Please enter valid contact no");
+return false;
+}
+else if(d=="")
+{
+alert("Please enter age");
+return false;
+}
+else if(isNaN(d)==true)
+{
+   alert("invalid input");
+   return false;
+}
+else if(e=="select")
+{
+alert("Please select state");
+   return false;
+}
+else if(f=="")
+{
+alert("Please enter email address");
+return false;
+}
+else if(!filter.test(f))
+{
+alert("Please enter valid email address");
+return false;
+}
+else
+{
+alert("Data Submitted sucessfully");
+return true;
+}
+}
+
+</script>
+</head>
+<body>
+<table border="0" align="center">
+<form method="post" onSubmit="return a()" action="result.html">
+<tr><td><b>Name:</b> </td><td><input type="text" name="t1" placeholder="Full Name"/> </td></tr>
+<tr><td><b>City:</b></td><td><input type="text" name="t2"/></td></tr>
+<tr><td><b>Contact No:</b></td><td><input type="tel" maxlength="10" name="t3"placeholder="Enter 10 digit phone no"/></td></tr>
+<tr><td><b>Age:</b></td><td><input type="text" name="t4"/></td></tr>
+<tr><td><b>State:</b></td><td>
+<select name="s1">
+<option value="select">--Select--</option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Karnataka">Karnataka</option>
+</select>
+
+</td></tr>
+<tr><td><b>Email id:</b></td><td><input type="text" name="t5" placeholder="abc123@gmail.com"/></td></tr>
+<tr><td align="center" colspan="2"><input type="submit" value="Generate Resume"/></td></tr>
+</form>
+</table>
+
+</body>
+</html>

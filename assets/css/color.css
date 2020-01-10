@@ -1,0 +1,87 @@
+.top-bar ul li a:hover,
+.foot-sec a:hover,
+.theme-color,
+.slider-text h1,
+.service-icon,
+a:hover,
+a:focus,
+.breadcrumb>.active,
+.itg-button-simple:hover ,
+.itg-button-simple,
+.thecube h4{
+    color: #2aa8ce;
+}
+.top-bar ul li a.cart-box:hover,
+.theme-bg,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover,
+.nav .open > a:focus,
+.nav .open > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover,
+ul.nav.navbar-nav li a:hover,
+.search_bar button:hover,
+.navbar-header,
+.default-btn,
+.square-box:hover,
+.owl-theme .owl-nav .owl-prev:hover,
+.owl-theme .owl-nav .owl-next:hover,
+.itg-button:hover,
+.theme-overlay,
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span,
+.theme-hover figure:after,
+a.circle:hover,
+.tag-list a:hover,
+.pagination-box span:hover,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover,
+.timer-circle,
+.thecube .cube:before ,
+.ui-accordion .ui-accordion-header:hover{
+    background-color: #2aa8ce;
+}
+.theme-border-bottom,
+a.circle:hover,
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover,
+.ui-accordion .ui-accordion-header:hover {
+    border-color: #2aa8ce;
+}
+
+
+/* extra-colors */
+
+.green {
+    background-color: #6fc191;
+}
+.yellow {
+    background-color: #edbf47;
+}
+.orange {
+    background-color: #ec774b;
+}
+.purple {
+    background-color: #c389ce;
+}
+.red {
+    background-color: #e16c6c;
+}
+.blue {
+    background-color: #4b8fec;
+}
+.dark-red {
+    background-color: #ec4b4b;
+}
+.dark-purpule {
+    background-color: #6d5d9e;
+}
